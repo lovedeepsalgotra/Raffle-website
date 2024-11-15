@@ -1,0 +1,1235 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+/*=========== Header ============*/ 
+header{
+    background-color: #FFA500;
+}
+header .email a{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 33px;
+}
+header .container .dropdown{
+    text-align: end;
+}
+header .container button{
+        border: none;
+        background: transparent;
+        font-size: 0.9rem;
+}
+header .container button:hover{
+    background: transparent;
+}    
+/* ============= Navbar ============*/
+.navbar{
+    padding: 0px!important;
+}
+.navbar .container-fluid{
+    background-color: #1E1E1E;
+    padding: 0 60px;
+}
+div#navbarSupportedContent {
+    justify-content: space-between;
+}
+/* .navabar .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-between;
+} */
+.navbar .navbar-brand img{
+    max-width: 210px;
+}
+.navbar .navbar-nav .nav-item{
+    margin-right: 20px;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.navbar .navbar-nav .nav-item .home{
+    color: rgba(255, 165, 0, 1);
+}
+.navbar .navbar-nav  button{
+    background: transparent;
+    border: none;
+}
+.navbar .navbar-nav  button:hover{
+    background: transparent;
+}
+.navbar .navbar-nav .dropdown-menu{
+    background: rgba(255, 165, 0, 1);
+    padding: 0px;
+}
+.navbar .navbar-nav .dropdown-menu li:hover{
+    background: rgba(255, 165, 0, 1)!important;
+}
+.navbar .navbar-nav .dropdown-menu li{
+    border-bottom: 0.5px solid #ffffff;
+}
+.navbar .navbar-nav .dropdown-menu li .dropdown-item{
+    color: #000000!important;
+    font-weight: 200;
+    font-size: 0.9rem;
+}
+.navbar .tickets{
+    background-color: #ffa500;
+    padding: 11px 20px;
+    border-radius: 50px;
+}
+.navbar .tickets a{
+        text-decoration: none;
+        font-size: 0.9rem;
+        color: #fff; 
+        font-weight: 500; 
+}
+.navbar button{
+    background: white;
+}
+/*==============******************
+         hero section 
+************=====================*/
+.hero{
+    background-color: #333333;
+    padding: 35px 0px;
+}
+.hero .hero-right-section{
+    padding: 40px 0px;
+}
+.hero .heroDetails .big-win{
+        color: #FFA500;
+        font-size: 1.2rem;
+        font-weight: 500;  
+}
+.hero .heroDetails h2{
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #fff;
+}
+.hero .heroDetails h2 span{
+        color: #ffa500;
+}
+.hero .heroDetails p{
+        font-size: 1rem;
+        color: #ffffff;
+        font-weight: 300;
+}
+.hero .heroDetails .hero-link .participate-link{
+    background-color: #ffa500;
+    padding: 10px 40px;
+    border-radius: 50px;
+}
+.hero .heroDetails .hero-link .participate-link a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #fff; 
+    font-weight: 500; 
+}
+.hero .heroDetails .hero-link .watch-video a{
+        display: flex;
+        align-items: center;
+}
+.hero .heroDetails .hero-link .watch-video i{
+        font-size: 2.5rem;
+        color: #FFA500;
+        margin-left: 22px;
+}
+.hero .heroDetails .hero-link .watch-video span{
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-left: 10px;
+}
+    /*============================
+               success-section 
+  ===============================**/
+.success{
+    background-color: #000000;
+    padding-top: 30px;
+}
+ .success-title{
+    padding-top: 35px;
+}
+ .success-title h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+ .success-title h1 span{
+    color: #28A745;
+    text-decoration: underline;
+}
+.success .toyota-car{
+    position: relative;
+}
+.success .toyota-car .gif{
+        position: absolute;
+        right: -26px;
+        width: 30%;  
+        top: -50px;  
+}
+.success .details .title-1{
+    background-image: url("./images/number-1.png");
+        background-repeat: no-repeat;
+        height: 185px;
+        background-position: right;
+        padding: 35px 0px;
+}
+.success .details .title-2{
+    background-image: url("./images/number-2.png");
+        background-repeat: no-repeat;
+        height: 185px;
+        background-position: right;
+        padding: 35px 0px;
+}
+.success .details .title-3{
+    background-image: url("./images/number-3.png");
+        background-repeat: no-repeat;
+        height: 185px;
+        background-position: right;
+        padding: 35px 0px;
+}
+.success .details h5{
+        font-size: 0.9rem;
+        color: #28A745;
+        font-weight: 600;
+}
+.success .details h2 a{
+        color: #ffffff;
+        font-size: 1.5rem;
+        font-weight: 600;
+}
+.success .details p{
+    font-size: 1.1rem;
+    color: #ffffff;
+    font-weight: 300;
+}
+.success .col-md-4{
+    padding: 0px 40px;
+}
+/*=========== service section =========*/
+.service{
+    padding: 80px 0px;
+}
+.service .animated-bike{
+    display: flex;
+    align-items: center;
+}
+.service h2{
+    color: #3F3836;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.service h2 span{
+    color: #FFA500;
+}
+.service .dream-lineup{
+        display: flex;
+        align-items: flex-start;
+}
+.service .read-more a{
+    color: rgba(40, 167, 69, 1);
+    font-weight: 300;
+}
+.service .dream-lineup .motorcycle{
+        background-color: #ffa500;
+        border-radius: 50%;
+        padding: 6px;
+}
+.service .dream-lineup .motorcycle img{
+        height: 60px;
+        width: 60px;
+}
+.service .dream-lineup .dream-lineup-text{
+    margin-left: 22px;
+}
+.service .dream-lineup .dream-lineup-text h5{
+        font-size: 1.4rem;
+        font-weight: 500;
+        color: #000000;    
+}
+.service .dream-lineup .dream-lineup-text p{
+        font-size: 0.9rem;
+        color: #717171;
+        FONT-WEIGHT: 300;
+}
+.service .tickets{
+    background-color: #ffa500;
+    padding: 11px 30px;
+    border-radius: 50px;
+    display: inline-block;
+}
+.service .tickets a{
+        text-decoration: none;
+        font-size: 0.9rem;
+        color: #fff; 
+        font-weight: 500; 
+}
+/*=========== offer section ============*/
+.offer{
+    padding: 40px 0;
+}
+.offer h1{
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: #3F3836;
+}
+.offer .offer-detail{
+        border: 1px solid #75777A4A;
+        border-radius: 50px;
+        height: 100%;
+        position: relative;
+        z-index: 3;
+        overflow: hidden;
+}
+.offer .offer-detail .background{
+        position: absolute;
+        background: linear-gradient(180deg, #FFA500 0%, #996300 100%);
+        height: 38%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.5;
+        border-radius: 0 0 92px 92px;
+}
+.offer .offer-detail:hover .background{
+        height: 100%;
+        transition: 0.4s;
+        border-radius: 50px;
+}
+.offer .offer-detail .offer-image img{
+    max-height: 275px;
+    width: 100%;
+    object-fit: contain;
+}
+.offer .duration{    
+    /* padding: 20px; */    
+    border-bottom: 1px solid #75777a4a;
+}
+.offer .duration .days{
+    font-size: 0.9rem;
+}
+.offer .duration .clock{
+    padding: 14px 29px;
+    border-right: 1px solid #75777a4a;
+}
+.offer .offer-detail .offer-content{
+    padding: 20px;
+}
+.offer .offer-detail .offer-ticket img{
+    max-width: 90%;
+}
+.offer .duration .calendar{
+    padding: 14px 35px;
+}
+.offer .offer-description{
+    padding: 0px 20px;
+}
+.offer .offer-description h6{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1);
+}
+.offer .price{
+    padding: 0px 20px;
+}
+.offer .price h6{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.offer .price h6 span{
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.offer .price .link{
+    border: 0.5px solid rgba(0, 0, 0, 1);    
+    border-radius: 50%;
+    padding: 7px 12px;
+    display: flex;
+}
+.offer .price .link img{
+    height: 15px;
+    width: 15px;
+}
+/*============ draw section ===========*/
+.draw{
+    background: rgba(255, 165, 0, 1);
+}
+.draw .countdown-box{
+    display: grid;
+    align-items: end;
+}
+.draw h1 {
+  font-weight: 700;
+  letter-spacing: .125rem;
+  text-transform: uppercase;
+  color: rgba(32, 26, 6, 1);
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+.draw ul{
+    padding-left: 0px;
+}
+
+.draw li {
+  display: inline-block;
+  font-size: 1em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.draw li span {
+  display: block;
+  font-size: 4.5rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+}
+
+.draw .emoji {
+  display: none;
+  padding: 1rem;
+}
+
+.draw .emoji span {
+  font-size: 4rem;
+  padding: 0 .5rem;
+}
+.draw .right-box{
+    display: grid;
+    align-items: end;
+}
+.draw .right-box .right-side-car{
+    position: relative;
+    display: flex;
+}
+.draw .right-box .right-side-car .right-car img{
+    max-width: 150px;
+}
+.draw .right-box .right-side-car .play-btn{
+        background: rgba(255, 101, 14, 1);
+        padding: 45px;
+        border-radius: 50%;
+        position: absolute;
+        right: 51px;
+}
+/*=========== winner-section ============*/
+.winner{
+    padding: 60px 0px;
+}
+.winner .winner-logo img{
+    max-height: 200px;
+    max-width: 400px;
+}
+.winner .winner-details {
+    background: rgba(255, 165, 0, 1);
+    border-radius: 50px;
+    padding: 20px;
+    position: relative;
+    z-index: 3;
+    height: 100%;
+}
+.winner .winner-details .background-visibility {
+    left: 0px;
+    z-index: 5;
+    position: absolute;
+    bottom: 0px;
+    opacity: 1.5;
+    background: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    backdrop-filter: blur(1.3px);
+    border-radius: 50px;
+    height: 75%;
+}
+.winner .winner-details:hover .background-visibility{
+    height: 17%;
+    transition: 0.4s;
+}
+.winner .winner-details .winner-name h4{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #000000;
+}
+.winner .winner-details .winner-name h5{
+    color: #ffffff;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+/*================= call-to-Action section =============*/
+.call-to-action{
+    background: rgba(0, 0, 0, 1);
+    padding: 110px 0px;
+}
+.call-to-action .title h6{
+    color: rgba(40, 167, 69, 1);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.call-to-action .title h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+.call-to-action .title h1 span{
+    color: rgba(40, 167, 69, 1);
+    text-decoration: underline;
+}
+.call-to-action .title p{
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.call-to-action .title .telephone{
+    position: relative;
+}
+.call-to-action .title .telephone .call{
+        border: 1px solid rgba(40, 167, 69, 1);
+        padding: 31px 20px;
+        border-radius: 50%;
+        padding: 33px 25px;
+}
+.call-to-action .title .telephone .call:hover, .call-to-action .title .telephone .number:hover{
+    background: rgba(40, 167, 69, 1);
+    transition: 0.3s;
+}
+
+.call-to-action .title .telephone .call img{
+    height: 20px;
+    width: 20px;
+}
+.call-to-action .title .telephone .call span{
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+.call-to-action .title .telephone .number{
+    border: 1px solid rgba(40, 167, 69, 1);
+    padding: 32px 1px;
+    border-radius: 50%;
+    position: absolute;
+    right: 181px;
+    background: black;
+}
+.call-to-action .title .telephone .number .contact-number{
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+.call-to-action .title .chatbot  .need-help a{
+        background: rgba(255, 165, 0, 1);
+        border-radius: 50px;
+        font-size: 1rem;
+        font-weight: 600;
+        color: #fff;
+}
+.call-to-action .news-letter{
+        padding: 65px 51px;
+        background: rgba(255, 165, 0, 1);
+        border-top-left-radius: 76px;
+        border-bottom-right-radius: 76px;
+}
+.call-to-action .news-letter h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+.call-to-action .news-letter-form input{
+    border-radius: 50px;
+    padding: 16px 11px;
+    background: transparent;
+    border: 1.5px solid #ffffff;
+}
+.call-to-action .news-letter-form input::placeholder{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #ffffff;
+}
+.call-to-action .news-letter-form .button button{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #ffffff;
+    border-radius: 50px;
+    padding: 10px 41px;
+}
+/*========== Footer section ===========*/
+footer .footer-detail img{
+    max-width: 333px;
+}
+footer .footer-detail p{
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+footer .quick-links ul li a{
+        color: #000000;
+        font-size: 1rem;
+        font-weight: 300;
+}
+footer .contact-us .contact-detail span{
+        font-size: 0.9rem;
+        font-weight: 300;
+        color: #000000;
+}
+footer .contact-us .contact-detail img{
+    max-width: 17px;
+}
+/*=========== copyright-section ============*/
+.copyright{
+    background: rgba(0, 0, 0, 1);
+}
+.copyright .row{
+    padding: 10px;
+    align-items: center;
+}
+.copyright .copyright-detail h5{
+    font-size: 0.9rem;
+    font-family: inter;
+    font-weight: 400;
+    color: #ffffff;
+}
+.copyright .privacy-policy ul li{
+    color: #ffffff;
+}
+.copyright .privacy-policy ul li a{
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #ffffff;
+    margin-right: 9px;
+}
+/*=====================================  
+                 Media Queries   
+======================================*/
+@media screen and (max-width:1024px) {
+    .hero .heroDetails h2 {
+        font-size: 2.3rem;
+    }
+    .hero .heroDetails p {
+        font-size: 0.9rem;
+    }
+    .success .details p {
+        font-size: 0.7rem;
+    }
+    .service h2 {
+        font-size: 2.3rem;
+    }
+    .service .dream-lineup .dream-lineup-text h5 {
+        font-size: 1.2rem;
+    }
+    .service .dream-lineup .dream-lineup-text p {
+        font-size: 0.7rem;
+    }
+    .offer h1 {
+        font-size: 2.3rem;
+    }
+    .offer .duration .clock {
+        padding: 14px 5px;
+    }
+    .offer .duration .calendar {
+        padding: 14px 7px;
+    }
+    .success .toyota-car .gif {
+        right: -9px;
+        top: -26px;
+    }
+    .draw h1 {
+        letter-spacing: .125rem;
+        text-transform: uppercase;
+        color: rgba(32, 26, 6, 1);
+        font-weight: 700;
+        font-size: 2.2rem;
+    }
+    .draw li {
+        font-size: 0.9em;
+       
+    }
+    .draw li span {
+        display: block;
+        font-size: 2.2rem;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 1);
+    }
+    .draw .right-box .right-side-car .right-car img {
+        max-width: 110px;
+    }
+    .draw .right-box .right-side-car .play-btn {
+        background: rgba(255, 101, 14, 1);
+        padding: 35px;
+        border-radius: 50%;
+        position: absolute;
+        right: 19px;
+        /* max-width: 110px; */
+    }
+    .draw .right-box .right-side-car .play-btn img{
+        max-width: 44px;
+    }
+    .call-to-action .title h1 {
+        font-size: 2.4rem;
+    }
+    .call-to-action .title .telephone .number {
+        right: 91px;
+    }
+    .call-to-action .news-letter-form input::placeholder{
+        font-size: 0.9rem;
+        font-weight: 400;
+        color: #ffffff;
+    }
+}
+@media screen and (max-width: 1018px) {
+    .draw li span {
+        font-size: 2rem;        
+    }
+}
+@media screen and (max-width: 1005px) {
+    .draw li span {
+        font-size: 1.8rem;
+    }
+}
+@media screen  and (max-width: 991px) {
+    .hero .container{
+        padding: 0px 60px;
+        max-width: 100%;
+    }
+    .navbar .tickets {
+        background-color: #ffa500;
+        padding: 11px 20px;
+        border-radius: 50px;
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+    a.navbar-brand.responsive-navbar-img {
+        display: none;
+    }
+    .success .success-title h1 {
+        font-size: 2rem;
+    }
+    .success .col-md-4 {
+        padding: 0px 6px;
+    }
+    .service h2 {
+        font-size: 1.9rem;
+    }
+    .service .image img{
+            max-width: 100%;
+    }
+    .offer h1 {
+        font-size: 2rem;
+    }
+    .winner .winner-details .winner-image img{
+        max-width: 135px;
+    }
+    .winner .winner-details .winner-name h5 {
+        font-size: 0.7rem;
+    }
+    .call-to-action .title h1 {
+        font-size: 1.9rem;
+    }
+    .call-to-action .title .telephone .number {
+        right: 33px;
+    }
+    .call-to-action .news-letter {
+        padding: 37px 51px;
+    }
+    .call-to-action .news-letter h2 {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #ffffff;
+    }
+    .draw .right-box {
+        justify-content: center;
+    }
+    .draw .countdown h1{
+        text-align: center;
+    }
+    .draw li span {
+        font-size: 4.5rem;
+    }
+    .draw ul {
+        padding-left: 0px;
+        text-align: center;
+    }
+    .draw .right-box .right-side-car .right-car img {
+        max-width: 110px;
+        position: relative;
+        left: -41px;
+    }
+    .draw .right-box .right-side-car .play-btn {
+        right: -65px;
+    }
+}
+@media screen and (max-width: 883px) {
+    .hero .heroDetails h2 {
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 780px){
+    .hero .heroDetails h2 {
+        font-size: 1.9rem;
+    }
+}
+@media screen and (max-width:768px) {
+    .navbar .container-fluid {
+        background-color: #1E1E1E;
+        padding: 0 35px;
+    }
+    .navbar .tickets {
+        display: none;
+    }
+    .hero .heroDetails .big-win {
+        font-size: 1rem;
+    }
+    .hero .heroDetails h2 {
+        font-size: 1.9rem;
+    }  
+    .hero .heroDetails p {
+        font-size: 0.6rem;
+    }
+    .success .success-title h1 {
+        font-size: 2rem;
+    }
+    .success .col-md-4 {
+        padding: 0px 0px;
+    }
+    .service h2 {
+        font-size: 1.9rem;
+    }
+    .service .image img{
+            max-width: 100%;
+    }
+    .service .dream-lineup .dream-lineup-text h5 {
+        font-size: 1.1rem;
+    }
+    .offer h1 {
+        font-size: 1.8rem;
+    }
+    .success .toyota-car .gif {
+        right: -12px;
+        top: -18px;
+    }
+    .draw .countdown-box .countdown{
+            text-align: center;
+    }
+    .draw li span {
+        display: block;
+        font-size: 4.5rem;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 1);
+    }
+    .draw .right-box .right-side-car {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    .draw .right-box .right-side-car .right-car img {
+        max-width: 110px;
+        position: relative;
+        right: 32px;
+    }
+    .draw .right-box .right-side-car .play-btn {
+        background: rgba(255, 101, 14, 1);
+        padding: 35px;
+        border-radius: 50%;
+        position: absolute;
+        right: -63px;
+    }
+    .winner .winner-details .winner-image img{
+        max-width: 120px;
+    }
+    .call-to-action .title h1 {
+        font-size: 1.8rem;
+    }
+    .call-to-action .title p {
+        font-size: 1.1rem;
+    }
+    .call-to-action .title .telephone .number {
+        right: 30px;
+    }
+    .call-to-action .news-letter h2 {
+        font-size: 2rem;
+    }
+    .call-to-action .news-letter {
+        padding: 23px 51px;
+    }
+    footer .footer-detail p {
+        font-size: 0.8rem;
+    }
+    footer .quick-links ul li a {
+        font-size: 0.9rem;
+    }
+    footer .contact-us .contact-detail span {
+        font-size: 0.7rem;
+    }
+} 
+@media screen and (max-width: 767px) {
+    .offer h1 {
+        font-size: 1.6rem;
+    }
+    .offer .duration {
+        border-bottom: 1px solid #75777a4a;
+        justify-content: space-evenly!important;
+    }
+    .offer .duration .clock {
+        padding: 14px 18px;
+    }
+    .copyright .privacy-policy ul {
+        justify-content: center!important;
+    }
+    .call-to-action .title .telephone {
+        position: relative;
+        margin-bottom: 13px;
+    }
+    .call-to-action .title .telephone .number {
+        right: 121px;
+    }
+    .copyright .copyright-detail{
+        text-align: center;
+    }
+    .copyright .privacy-policy ul{
+        justify-content: center;
+    }
+    .draw .right-box {
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+    
+}
+@media screen and (max-width: 575px) {
+    .success .container {
+        padding: 0px 60px;
+    }
+    .offer{
+        padding: 0px 60px;
+    }
+    .winner .container{
+        padding: 0px 60px;
+    }
+    .service .container{
+        padding: 0px 60px;
+    }
+    footer .container{
+        padding: 0px 60px;
+    }
+}
+@media screen and (max-width: 511px) {
+    .offer h1 {
+        font-size: 1.5rem;
+    }
+    .call-to-action .title .telephone .number {
+        right: 105px;
+    }
+    .draw .right-box {
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+}
+@media screen and (max-width : 485px) {
+    .draw li {
+        font-size: 0.8em;        
+    }
+    .call-to-action .title .telephone .number {
+        right: 93px;
+    }
+}
+@media screen and (max-width : 460px) {
+    .draw li {
+        font-size: 0.7em;
+    }
+    .draw .right-box {
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+    .call-to-action .title .telephone .number {
+        right: 79px;
+    }
+    .winner .winner-logo img {
+        max-height: 200px;
+        max-width: 300px;
+    }
+    .success .success-title h1 {
+        font-size: 1.8rem;
+    }
+}
+@media screen and (max-width: 445px) {
+    .service h2 {
+        font-size: 1.7rem;
+    }
+}
+@media screen and (max-width : 430px) {
+    .navbar .container-fluid {
+        padding: 0 33px;
+    }
+    .draw li {
+        font-size: 0.5em;
+    }
+    .call-to-action .title .telephone .number {
+        right: 66px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .navbar .container-fluid{
+            padding: 0px 13px;
+    }
+    .hero .heroDetails p {
+        font-size: 0.9rem;
+    }
+    .success .toyota-car .gif {
+        position: absolute;
+    }
+    .offer h1 {
+        font-size: 1.2rem;
+    }
+    .draw li span {
+        display: block;
+        font-size: 2.2rem;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 1);
+    }
+    .draw li {
+        font-size: 0.9em;
+    }
+    .draw .right-box {
+        margin-bottom: 20px;
+    }
+    .draw .right-box .right-side-car .right-car img {
+        max-width: 110px;
+        position: relative;
+        right: 43px;
+    }
+    .draw .right-box .right-side-car .play-btn {
+        background: rgba(255, 101, 14, 1);
+        padding: 35px;
+        border-radius: 50%;
+        position: absolute;
+        right: -62px;
+    }
+    .call-to-action .title .telephone {
+        margin-bottom: 20px;
+    }
+    .call-to-action .title .telephone .number {
+        right: 64px;
+    }
+    .copyright .copyright-detail h5 {
+        text-align: center;
+    }
+    .copyright .privacy-policy ul{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width : 421px) {
+    .hero .heroDetails h2 {
+        font-size: 1.7rem;
+    }
+}
+@media screen and (max-width: 424px) {
+    .draw li {
+        font-size: 0.9em;
+    }
+}
+@media screen and (max-width : 418px) {
+    .success .success-title h1 {
+        font-size: 1.5rem;
+    }
+    .offer .duration .clock {
+        padding: 14px 6px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .call-to-action .title .telephone .number {
+        right: 56px;
+    }
+}
+@media screen and (max-width : 411px) {
+    .winner .winner-logo img {
+        max-height: 200px;
+        max-width: 100%;
+    }
+    .service h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 391px) {
+    .draw li {
+        font-size: 0.8em;
+    }
+    .call-to-action .title .telephone .number {
+        right: 46px;
+    }
+    .offer .duration .days {
+        font-size: 0.7rem;
+    }
+}
+
+
+
+
+@media screen and (max-width: 412px) {
+    .draw .right-box .right-side-car .play-btn {
+        right: -60px;
+    }
+} 
+@media screen and (max-width : 408px) {
+    .offer .price h6 {
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+}
+@media screen and (max-width: 375px) {
+    .hero .heroDetails h2 {
+        font-size: 1.6rem;
+    }
+    .hero .heroDetails .hero-link .participate-link {
+        background-color: #ffa500;
+        padding: 7px 12px;
+    }
+    .hero .heroDetails .hero-link .participate-link a {
+        text-decoration: none;
+        font-size: 0.7rem;
+    }
+    .hero .heroDetails .hero-link .watch-video span {
+        font-size: 0.7rem;
+    }
+    .offer .price h6 span {
+        font-size: 0.7rem;
+    }
+    .offer .price .link img {
+        height: 10px;
+        width: 10px;
+    }
+    .offer .price .link {
+        padding: 4px 11px;
+    }
+    .draw li {
+        font-size: 0.8em;
+    }
+    .call-to-action .title .telephone .number {
+        right: 39px;
+    }
+    .offer {
+        padding: 0px 45px;
+    }
+}
+@media screen and (max-width: 370px) {
+    .draw .right-box .right-side-car .play-btn {
+        right: -64px;
+    }
+    .call-to-action .title .telephone .number {
+        right: 34px;
+    }
+}
+@media screen and (max-width: 369px) {
+    .hero .heroDetails h2 {
+        font-size: 1.3rem;
+    }
+}
+@media screen and (max-width: 359px) {
+    .draw li {
+        font-size: 0.7em;
+    }
+    .call-to-action .title .telephone .number {
+        right: 33px;
+    }
+}
+@media screen and (max-width: 354px) {
+    .offer .duration .calendar {
+        padding: 14px 0px;
+    }
+    .offer .offer-detail .clock .fa-regular{
+        font-size: 12px;
+    }
+    .offer .offer-detail .calendar img{
+            max-width: 15px;
+    }
+}
+@media screen and (max-width:350px) {
+    .call-to-action .title .telephone .number {
+        right: 26px;
+    }
+    .hero .heroDetails .hero-link .participate-link {
+        background-color: #ffa500;
+        padding: 4px 7px;
+    }
+}
+@media screen and (max-width : 343px) {
+    .hero .heroDetails .hero-link .participate-link {
+        background-color: #ffa500;
+        padding: 5px 5px;
+    }
+    .offer {
+        padding: 0px 30px;
+    }
+}
+
+@media screen and (max-width : 339px) {
+    .hero .heroDetails .hero-link .participate-link {
+        background-color: #ffa500;
+        padding: 5px 4px;
+    }
+    .hero .heroDetails .hero-link .watch-video i {
+        font-size: 2rem;
+        color: #FFA500;
+    }
+}
+
+@media screen and (max-width : 329px) {
+    .hero .heroDetails .hero-link .participate-link {
+        background-color: #ffa500;
+        padding: 2px 4px;
+    }
+    .hero .heroDetails .hero-link .watch-video i {
+        font-size: 1.5rem;
+        color: #FFA500;
+    }
+}
+@media screen and (max-width: 326px) {
+    .draw li {
+        font-size: 0.5em;
+    }
+    .call-to-action .title h1 {
+        font-size: 1.5rem;
+    }
+    .call-to-action .title .telephone .number {
+        right: 14px;
+    }
+    .success .details h2 a {
+        color: #ffffff;
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+}
+@media screen and (max-width: 320px) {
+    .hero .heroDetails p {
+        font-size: 0.8rem;
+    }
+    .hero .heroDetails .hero-link .participate-link {
+        background-color: #ffa500;
+        padding: 4px 9px;
+        line-height: 15px;
+    }
+    .hero .heroDetails .hero-link .participate-link a {
+        text-decoration: none;
+        font-size: 0.6rem;
+    }
+    .hero .heroDetails .hero-link .watch-video i {
+        font-size: 1.5rem;
+        color: #FFA500;
+        /* margin-left: 22px; */
+    }
+    .success .success-title h1 {
+        font-size: 1.6rem;
+    }
+    .service h2 {
+        font-size: 1.7rem;
+    }
+    .service .dream-lineup .dream-lineup-text h5 {
+        font-size: 0.9rem;
+    }
+    .offer h1 {
+        font-size: 0.9rem;
+    }
+}

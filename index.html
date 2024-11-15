@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Animation link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Lexend:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!------------ Header section ------------->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col">
+                    <div class="email">
+                        <a class="text-decoration-none" href="">karibuWinner@gmail.com</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          English
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">English</a></li>
+                          <li><a class="dropdown-item" href="#">French</a></li>
+                        </ul>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </header>
+<!--============= Navbar ==============-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand d-lg-none" href="#">
+            <img src="./images/raffle-logo.png" alt="">
+        </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <a class="navbar-brand responsive-navbar-img" href="#">
+                <img src="./images/raffle-logo.png" alt="">
+            </a>
+            <ul class="navbar-nav   mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link home active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Listing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Live Draw</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Login</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Confirmation Page</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Login</a>
+              </li> -->
+              <li>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      More
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Purchased Tickets</a></li>
+                      <li><a class="dropdown-item" href="#">Pending Tickets</a></li>
+                    </ul>
+                  </div>
+              </li>
+            </ul>
+            <div class="tickets">
+                <a href="">Buy Tickets</a>
+            </div>
+          </div>
+        </div>
+    </nav>      
+      <!------------ Hero section ------------->
+      <section class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 hero-right-section">
+                    <div class="heroDetails">
+                        <p class="big-win">Big Wins,Big Dreams</p>
+                        <h2 class="mb-4">"Will You Be Our Next <br> Lottery 
+                            <span>Champion?"</span>
+                        </h2>
+                        <p class="mb-4">"Buying a lottery ticket is a moment of hope; winning is a twist of<br>fate, but what you do with that chance defines your fortune."</p>
+
+                        <div class="hero-link d-flex">
+                            <div class="participate-link">
+                                <a class="text-decoration-none" href="">Play Now</a>
+                            </div>
+
+                            <div class="watch-video">
+                                <a class="text-decoration-none" href="">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                <span>Watch Video</span>
+                                 <!-- <p>Watch Video</p> -->
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="hero-image">
+                        <img src="./images/hero-Cars.png" class="w-100" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+<!------------ Success section ------------->
+      <section class="success">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 success-title">
+                       <h1>
+                        The Complete Guide<br> To  
+                        <a class="text-decoration-none" href="">
+                            <span>Success!</span>
+                        </a>
+                       </h1>
+                </div>
+                <div class="col-md-6">
+                    <div class="toyota-car">
+                        <img src="./images/toyota-pick-up.png" class="w-100" alt="">
+                        <img class="gif" src="./images/success-gif.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <div class="details">
+                        <div class="title-1">
+                        <h5 class="mb-4">STEP_01</h5>
+                        <h2 class="mb-4"> 
+                            <a class="text-decoration-none" href="">Choose Prize</a>
+                        </h2>
+                    </div>
+                        <p>Our exclusive lottery limits the number<br> of entries, enhancing your chances of<br> winning. </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <div class="details">
+                        <div class="title-2">
+                        <h5 class="mb-4">STEP_02</h5>
+                        <h2 class="mb-4"> 
+                            <a class="text-decoration-none" href="">Live Draw</a>
+                        </h2>
+                    </div>
+                        <p>Our exclusive lottery limits the number<br> of entries, enhancing your chances of<br> winning. </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <div class="details">
+                        <div class="title-3">
+                        <h5 class="mb-4">STEP_03</h5>
+                        <h2 class="mb-4"> 
+                            <a class="text-decoration-none" href="">Win Prize</a>
+                        </h2>
+                    </div>
+                        <p>Our exclusive lottery limits the number<br> of entries, enhancing your chances of<br> winning. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- </sec> -->
+      </section>
+    <!------------ Service section ------------->
+    <section class="service">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 animated-bike" data-aos="slide-right">
+                    <div class="image">
+                        <img src="./images/ktm-bike-on-rent.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="mb-5">Explore 
+                        <span>Our Exclusive</span><br>
+                        Lottery Services
+                    </h2>
+
+                    <div class="dream-lineup pt-2 pb-4">
+                        <div class="motorcycle">
+                            <img src="./images/motorcycle.png" alt="">
+                        </div>
+                        <div class="dream-lineup-text">
+                            <h5 class="mb-3">Dream Lineup</h5>
+                            <p>Our exclusive lottery limits the number of entries, enhancing your<br> chances of winning    <span class="read-more"><a class="text-decoration-none" href=""> Read more... </a></span> 
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="dream-lineup pt-2 pb-4">
+                        <div class="motorcycle">
+                            <img src="./images/secure.png" alt="">
+                        </div>
+                        <div class="dream-lineup-text">
+                            <h5 class="mb-3">Transparent Draw Process</h5>
+                            <p>Our exclusive lottery limits the number of entries, enhancing your<br> chances of winning
+                                <span class="read-more"> <a class="text-decoration-none" href="">Read more...</a></span>
+                             </p>
+                        </div>
+                    </div>
+
+                    <div class="dream-lineup pt-2 pb-4">
+                        <div class="motorcycle">
+                            <img src="./images/ticket.png" alt="">
+                        </div>
+                        <div class="dream-lineup-text">
+                            <h5 class="mb-3">Secure Ticket Purchasing</h5>
+                            <p>Our exclusive lottery limits the number of entries, enhancing your<br> chances of winning
+                                <span class="read-more"><a class="text-decoration-none" href=""> Read more...</a></span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="tickets">
+                        <a href="">Buy Tickets</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+<!------------ Offer section ------------->
+    <section class="offer">
+        <div class="container">
+            <div class="row">
+                <h1 class="text-center mb-5"> Our Ongoing Championships</h1>
+
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="offer-detail">
+                        <div class="background"></div>
+                        <div class="duration d-flex justify-content-center mb-2">
+                            <div class="clock">
+                                <i class="fa-regular fa-clock"></i>
+                                <span class="days">05 Days</span>
+                            </div>
+                            
+                            <div class="calendar">
+                                <img src="./images/calendar.png" alt="">
+                                <span class="days">1550 Remaining</span>
+                            </div>
+                        </div>
+
+                        <div class="offer-image text-center mb-2">
+                            <img src="./images/smartphone.png" alt="">
+                        </div>
+                    
+
+                    <div class="offer-content">
+
+                        <div class="offer-ticket text-center mb-3">
+                            <img src="./images/offer-ticket.png" alt="">
+                        </div>
+
+                        <div class="offer-description brand-model mb-2">
+                            <h6>IPhone 13</h6>
+                        </div>
+
+                        <div class="offer-description star mb-3">
+                            <i class="fa-solid fa-star" style="color: #ff8647;"></i>
+                            <i class="fa-solid fa-star" style="color: #ff8647;"></i>
+                            <i class="fa-solid fa-star" style="color: #ff8647;"></i>
+                            <i class="fa-solid fa-star" style="color: #ff8647;"></i>
+                            <i class="fa-solid fa-star" style="color: #ff8647;"></i>
+                        </div>
+
+                        <div class="price d-flex justify-content-between mb-4">
+                            <h6 class="d-flex align-items-center">$ 8.00
+                                <span>PER ENTRY</span>
+                            </h6>
+
+                            <div class="link">
+                                <a href="#">
+                                    <img src="./images/arrow-up-right.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="offer-detail">
+                        <div class="background"></div>
+                        <div class="duration d-flex justify-content-center mb-2">
+                            <div class="clock">
+                                <i class="fa-regular fa-clock"></i>
+                                <span class="days">05 Days</span>
+                            </div>
+                            
+                            <div class="calendar">
+                                <img src="./images/calendar.png" alt="">
+                                <span class="days">1550 Remaining</span>
+                            </div>
+                        </div>
+
+                        <div class="offer-image text-center mb-2">
+                            <img src="./images/samsung-galaxy-z-fold.png" alt="">
+                        </div>
+
+                    <div class="offer-content">
+                        <div class="offer-ticket text-center mb-3">
+                            <img src="./images/offer-ticket2.png" alt="">
+                        </div>
+
+                        <div class="offer-description brand-model mb-2">
+                            <h6>Samsung Galaxy Z Fold</h6>
+                        </div>
+
+                        <div class="offer-description star mb-3">
+                            <i class="fa-solid fa-star" style="color: #ff8647;"></i>
+                            <i class="fa-solid fa-star" style="color: #ff8647;"></i>
+                            <i class="fa-solid fa-star" style="color: #ff8647;"></i>
+                            <i class="fa-solid fa-star" style="color: #ff8647;"></i>
+                            <i class="fa-solid fa-star" style="color: #ff8647;"></i>
+                        </div>
+
+                        <div class="price d-flex justify-content-between mb-4">
+                            <h6 class="d-flex align-items-center">$ 4.00
+                                <span>PER ENTRY</span>
+                            </h6>
+
+                            <div class="link">
+                                <a href="#">
+                                    <img src="./images/arrow-up-right.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="offer-detail">
+                        <div class="background"></div>
+                        <div class="duration d-flex justify-content-center mb-2">
+                            <div class="clock">
+                                <i class="fa-regular fa-clock"></i>
+                                <span class="days">05 Days</span>
+                            </div>
+                            
+                            <div class="calendar">
+                                <img src="./images/calendar.png" alt="">
+                                <span class="days">1550 Remaining</span>
+                            </div>
+                        </div>
+
+                        <div class="offer-image text-center mb-2">
+                            <img src="./images/tvs-apache.png" alt="">
+                        </div>
+                    
+
+                    <div class="offer-content">
+                        <div class="offer-ticket text-center mb-3">
+                            <img src="./images/offer-ticket3.png" alt="">
+                        </div>
+
+                        <div class="offer-description brand-model mb-2">
+                            <h6>TVS Apache 125cc</h6>
+                        </div>
+
+                        <div class="offer-description star mb-3">
+                            <i class="fa-solid fa-star" style="color: #ff8647;"></i>
+                            <i class="fa-solid fa-star" style="color: #ff8647;"></i>
+                            <i class="fa-solid fa-star" style="color: #ff8647;"></i>
+                            <i class="fa-solid fa-star" style="color: #ff8647;"></i>
+                            <i class="fa-solid fa-star" style="color: #ff8647;"></i>
+                        </div>
+
+                        <div class="price d-flex justify-content-between mb-4">
+                            <h6 class="d-flex align-items-center">$ 5.00
+                                <span>PER ENTRY</span>
+                            </h6>
+
+                            <div class="link">
+                                <a href="#">
+                                    <img src="./images/arrow-up-right.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="offer-detail">
+                        <div class="background"></div>
+                        <div class="duration d-flex justify-content-center mb-2">
+                            <div class="clock">
+                                <i class="fa-regular fa-clock"></i>
+                                <span class="days">05 Days</span>
+                            </div>
+                            
+                            <div class="calendar">
+                                <img src="./images/calendar.png" alt="">
+                                <span class="days">1550 Remaining</span>
+                            </div>
+                        </div>
+
+                        <div class="offer-image text-center text-center mb-2">
+                            <img src="./images/toyota_camry-hybrid_sedan.png" alt="">
+                        </div>
+                    
+
+                    <div class="offer-content">
+                        <div class="offer-ticket text-center mb-3">
+                            <img src="./images/offer-ticket4.png" alt="">
+                        </div>
+
+                        <div class="offer-description brand-model mb-2">
+                            <h6>Toyota Double Chain</h6>
+                        </div>
+
+                        <div class="offer-description star mb-3">
+                            <i class="fa-solid fa-star" style="color: #ff8647;"></i>
+                            <i class="fa-solid fa-star" style="color: #ff8647;"></i>
+                            <i class="fa-solid fa-star" style="color: #ff8647;"></i>
+                            <i class="fa-solid fa-star" style="color: #ff8647;"></i>
+                            <i class="fa-solid fa-star" style="color: #ff8647;"></i>
+                        </div>
+
+                        <div class="price d-flex justify-content-between mb-4">
+                            <h6 class="d-flex align-items-center">$ 3.00
+                                <span>PER ENTRY</span>
+                            </h6>
+
+                            <div class="link">
+                                <a href="#">
+                                    <img src="./images/arrow-up-right.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="offer-detail">
+                        <div class="background"></div>
+                        <div class="duration d-flex justify-content-center mb-2">
+                            <div class="clock">
+                                <i class="fa-regular fa-clock"></i>
+                                <span class="days">05 Days</span>
+                            </div>
+                            
+                            <div class="calendar">
+                                <img src="./images/calendar.png" alt="">
+                                <span class="days">1550 Remaining</span>
+                            </div>
+                        </div>
+
+                        <div class="offer-image text-center text-center mb-2">
+                            <img src="./images/iphone_15_pro.png" alt="">
+                        </div>
+                    
+
+                    <div class="offer-content">
+                        <div class="offer-ticket text-center mb-3">
+                            <img src="./images/offer-ticket5.png" alt="">
+                        </div>
+
+                        <div class="offer-description brand-model mb-2">
+                            <h6>IPhone 15 Pro</h6>
+                        </div>
+
+                        <div class="offer-description star mb-3">
+                            <i class="fa-solid fa-star" style="color: #ff8647;"></i>
+                            <i class="fa-solid fa-star" style="color: #ff8647;"></i>
+                            <i class="fa-solid fa-star" style="color: #ff8647;"></i>
+                            <i class="fa-solid fa-star" style="color: #ff8647;"></i>
+                            <i class="fa-solid fa-star" style="color: #ff8647;"></i>
+                        </div>
+
+                        <div class="price d-flex justify-content-between mb-4">
+                            <h6 class="d-flex align-items-center">$ 7.00
+                                <span>PER ENTRY</span>
+                            </h6>
+
+                            <div class="link">
+                                <a href="#">
+                                    <img src="./images/arrow-up-right.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="offer-detail">
+                        <div class="background"></div>
+                        <div class="duration d-flex justify-content-center mb-2">
+                            <div class="clock">
+                                <i class="fa-regular fa-clock"></i>
+                                <span class="days">05 Days</span>
+                            </div>
+                            
+                            <div class="calendar">
+                                <img src="./images/calendar.png" alt="">
+                                <span class="days">1550 Remaining</span>
+                            </div>
+                        </div>
+
+                        <div class="offer-image text-center mb-2">
+                            <img src="./images/toyota-raider-2.png" alt="">
+                        </div>
+                    
+
+                    <div class="offer-content">
+                        <div class="offer-ticket text-center mb-3">
+                            <img src="./images/offer-ticket6.png" alt="">
+                        </div>
+
+                        <div class="offer-description brand-model mb-2">
+                            <h6>Toyota Double Chain</h6>
+                        </div>
+
+                        <div class="offer-description star mb-3">
+                            <i class="fa-solid fa-star" style="color: #ff8647;"></i>
+                            <i class="fa-solid fa-star" style="color: #ff8647;"></i>
+                            <i class="fa-solid fa-star" style="color: #ff8647;"></i>
+                            <i class="fa-solid fa-star" style="color: #ff8647;"></i>
+                            <i class="fa-solid fa-star" style="color: #ff8647;"></i>
+                        </div>
+
+                        <div class="price d-flex justify-content-between mb-4">
+                            <h6 class="d-flex align-items-center">$ 3.00
+                                <span>PER ENTRY</span>
+                            </h6>
+
+                            <div class="link">
+                                <a href="#">
+                                    <img src="./images/arrow-up-right.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!------------ Draw section ------------->
+    <section class="draw py-md-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 mb-3">
+                    <div class="left-side">
+                        <img src="./images/toyota-left-side.png" class="w-100" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-md-12 countdown-box">
+                    <div class="countdown">
+                        <h1 id="headline">Next Draw</h1>
+                        <div id="countdown">
+                          <ul>
+                            <li><span id="days"></span>days</li>
+                            <li><span id="hours"></span>Hours</li>
+                            <li><span id="minutes"></span>Minutes</li>
+                            <li><span id="seconds"></span>Seconds</li>
+                          </ul>
+                        </div>
+                        <div id="content" class="emoji">
+                          <span>🥳</span>
+                          <span>🎉</span>
+                          <span>🎂</span>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-lg-3 col-md-12 right-box">
+                    <div class="right-side-car">
+                        <div class="right-car">
+                            <img class="right-car" src="./images/draw-car-right-side.png" alt="">
+                        </div>
+
+                        <div class="play-btn">
+                            <img class="play-button" src="./images/play-button.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!------------ Winner section ------------->
+    <section class="winner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="winner-logo text-center">
+                        <img src="./images/winner.png" alt="">
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="winner-details">
+                        <div class="background-visibility"></div>
+                        <div class="winner-image text-center mt-5 mb-2">
+                            <img src="./images/winner1.png" alt="">
+                        </div>
+
+                        <div class="winner-name text-center mt-4 mb-3">
+                            <h4 class="pb-1">Dianne Russell</h4>
+                            <h5>United States- March 23 , 2024</h5>
+                        </div>
+
+                        <div class="winner-price pb-5 mb-5">
+                            <img src="./images/winner-price-car1.png" class="w-100" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="winner-details">
+                        <div class="background-visibility"></div>
+                        <div class="winner-image text-center mt-5 mb-2">
+                            <img src="./images/winner2.png" alt="">
+                        </div>
+
+                        <div class="winner-name text-center mt-4 mb-3">
+                            <h4 class="pb-1">Andrew Russell</h4>
+                            <h5>United States- March 23 , 2024</h5>
+                        </div>
+
+                        <div class="winner-price pb-5 mb-5">
+                            <img src="./images/winner-price-mobile.png" class="w-100" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="winner-details">
+                        <div class="background-visibility"></div>
+                        <div class="winner-image text-center mt-5 mb-2">
+                            <img src="./images/winner3.png"  alt="">
+                        </div>
+
+                        <div class="winner-name text-center mt-4 mb-3">
+                            <h4 class="pb-1">Alvarse Russell</h4>
+                            <h5>United States- March 23 , 2024</h5>
+                        </div>
+
+                        <div class="winner-price pb-5 mb-5">
+                            <img src="./images/winner-price-double-cabin-car.png" class="w-100" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--------- Call-To-Action section --------->
+    <section class="call-to-action">
+        <div class="container">
+        <div class="row">
+            <div class="col-md-6 mb-sm-4 mb-md-0">
+                <div class="title">
+                    <h6 class="mb-4">Call to Action</h6>
+                    <h1 class="mb-5">Grab Your Chance To<br> Win a
+                        <a class="text-decoration-none" href=""> 
+                            <span>
+                               Car Now!
+                            </span>
+                        </a>
+                    </h1>
+                    <p class="mb-4">We're Here For You 24/7</p>
+
+                    <!-- <div class="telephone d-flex justify-content-center">
+                        <div class="call">
+                            <img src="./images/telephone.png" alt="">
+                            <span>Call</span>
+                        </div>
+
+                        <div class="number">
+                            <h6 class="contact-number">123045-6780</h6>
+                        </div>
+                    </div> -->
+                    <div class="chatbot">
+                        <!-- <div class="chatbot-img">
+                            <img src="./images/chatbot.png" class="w-100" alt="">
+                        </div> -->
+
+                        <div class="need-help py-3">
+                            <a class="text-decoration-none px-3 py-3" href="">Need any help</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="news-letter">
+                    <h2 class="py-3 mb-3">News Letter</h2>
+
+                    <div class="news-letter-form">
+                        <form action="" method="post">
+                            <div class="row">
+                                <!-- <div class="col-lg-6 col-md-12 mb-4 pb-3">
+                                    <input type="text" class="form-control" placeholder="Name" name="">
+                                </div> -->
+                                <div class="col-md-12 mb-4 pb-3">
+                                    <input type="text" class="form-control" placeholder="Name" name="">
+                                </div>
+
+                                <div class="col-md-12 mb-4 pb-3">
+                                    <input type="email" class="form-control" placeholder="Email*" name="" id="">
+                                </div>
+
+                                <div class="col-md-12 mb-4">
+                                    <div class="button">
+                                        <button type="submit" class="btn btn-dark" value="Submit">Submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!--========== Footer section ===========-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 my-4">
+                    <div class="footer-detail">
+                        <img src="./images/karibu-logo-black.png" class="w-100" alt="">
+                        <p class="py-2">
+                            Our Car Lottery is your chance to win a<br> brand-new luxury car. It’s simple, thrilling,<br> and could change your life. 
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 my-4">
+                    <div class="quick-links">
+                        <h6 class="my-md-4 pt-md-3">Quick Links</h6>
+
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <a class="text-decoration-none" href="">Home</a>
+                            </li>
+                            <li class="mb-2">
+                                <a class="text-decoration-none" href="">Listing</a>
+                            </li>
+                            <li class="mb-2">
+                                <a class="text-decoration-none" href="">Details</a>
+                            </li>
+                            <li class="mb-2">
+                                <a class="text-decoration-none" href="">Login</a>
+                            </li>
+                            <li class="mb-2">
+                                <a class="text-decoration-none" href="">Live Draw</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-4 my-4">
+                    <div class="contact-us">
+                        <h6 class="my-md-4 pt-md-3">Contact Us</h6>
+
+                        <div class="contact-detail">
+                            <div class="location mb-2">
+                                <img src="./images/location.png" alt="">
+                            <span>
+                                602 Central Ave., Findlay Ohio, CO 
+                            </span>
+                            </div>
+
+                            <div class="mail mb-2">
+                                <img src="./images/mail.png" alt="">
+                                <span>
+                                    Karibuwinner@gmail.com
+                                </span>
+                            </div>
+
+                            <div class="phone">
+                                <img src="./images/telephone-raffle.png" alt="">
+                                <span>
+                                    Phone: 720-674-9305
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--========== copyright section =========-->
+    <section class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="copyright-detail">
+                        <h5>
+                            copyright
+                            <span>
+                                <i class="fa-regular fa-copyright"></i>
+                            </span>
+                            2024 Karibu Winner
+                        </h5>
+                    </div>
+                </div>
+
+                <div class="col-md-5">
+                    <div class="privacy-policy">
+                        <ul class="list-unstyled d-flex justify-content-end">
+                            <li class="px-2">
+                                <a class="text-decoration-none" href="">Privacy Policy</a>|
+                            </li>
+                            <li class="px-2">
+                                <a class="text-decoration-none" href="">Terms of Service</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+                   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+    <!-- Animation  js -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 250,
+        duration: 1400,
+      });
+    </script>
+
+    <script>
+        (function () {
+        const second = 1000,
+        minute = second * 60,
+        hour = minute * 60,
+        day = hour * 24;
+
+  //I'm adding this section so I don't have to keep updating this pen every year :-)
+  //remove this if you don't need it
+  let today = new Date(),
+      dd = String(today.getDate()).padStart(2, "0"),
+      mm = String(today.getMonth() + 1).padStart(2, "0"),
+      yyyy = today.getFullYear(),
+      nextYear = yyyy + 1,
+      dayMonth = "01/30/",
+      birthday = dayMonth + yyyy;
+  
+  today = mm + "/" + dd + "/" + yyyy;
+  if (today > birthday) {
+    birthday = dayMonth + nextYear;
+  }
+  //end
+  
+  const countDown = new Date(birthday).getTime(),
+      x = setInterval(function() {    
+
+        const now = new Date().getTime(),
+              distance = countDown - now;
+
+        document.getElementById("days").innerText = Math.floor(distance / (day)),
+          document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
+          document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+          document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+
+        //do something later when date is reached
+        if (distance < 0) {
+          document.getElementById("headline").innerText = "It's my birthday!";
+          document.getElementById("countdown").style.display = "none";
+          document.getElementById("content").style.display = "block";
+          clearInterval(x);
+        }
+        //seconds
+      }, 0)
+  }());
+    </script>
+</body>
+</html>
